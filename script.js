@@ -6,8 +6,7 @@ const secondButton = document.querySelector('.button-second')
 const thirdButton = document.querySelector('.button-third')
 
 firstButton.addEventListener('click', function() {
-    firstPageDiv.removeAttribute('display')
-
+    firstPageDiv.classList.add(".active")
     
     if (firstButton.clicked == true || firstButton.innerText=== "Close") {
         firstButton.innerText='First Page'
