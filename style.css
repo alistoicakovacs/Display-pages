@@ -1,74 +1,70 @@
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .first-page {
-    width: 500px;
-    max-width: 60%;
-    margin-left:10%;
-    margin-top:10%;
-    border: 1px solid black;
-    position: absolute;
-    background-color:#CCFFE5 ;
-    display:none;
-
+	width: 500px;
+	max-width: 60%;
+	margin-left: 10%;
+	margin-top: 10%;
+	border: 1px solid black;
+	position: absolute;
+	background-color: #ccffe5;
+	display: none;
 }
 
 .first-page-title {
-    padding:10px;
-
+	padding: 10px;
 }
 
 .first-page-body {
-    padding:10px;
+	padding: 10px;
 }
 
 .second-page {
-    width: 500px;
-    max-width: 60%;
-    margin-left:10%;
-    margin-top:10%;
-    border: 1px solid black;
-    position: absolute;
-    background-color:#CCFFFF ;
-    display:none;
+	width: 500px;
+	max-width: 60%;
+	margin-left: 10%;
+	margin-top: 10%;
+	border: 1px solid black;
+	position: absolute;
+	background-color: #ccffff;
+	display: none;
 }
 
-
 .second-page-title {
-    padding:10px;
-
+	padding: 10px;
 }
 
 .second-page-body {
-    padding:10px;
+	padding: 10px;
 }
 
 .third-page {
-    width: 500px;
-    max-width: 60%;
-    margin-left:10%;
-    margin-top:10%;
-    border: 1px solid black;
-    position: absolute;
-    background-color: #FFCCCC;
-    display:none;
-    
+	width: 500px;
+	max-width: 60%;
+	margin-left: 10%;
+	margin-top: 10%;
+	border: 1px solid black;
+	position: absolute;
+	background-color: #ffcccc;
+	display: none;
 }
 
-
 .third-page-title {
-    padding:10px;
-
+	padding: 10px;
 }
 
 .third-page-body {
-    padding:10px;
+	padding: 10px;
 }
 
 .active {
-    display:block;
+	display: block;
+}
+
+.hidden {
+	display: none;
 }
